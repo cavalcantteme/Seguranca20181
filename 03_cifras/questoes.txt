@@ -1,0 +1,48 @@
+1. O que são chaves simétricas e assimétricas?
+
+Chave Simétrica - É uma forma de criptossistema em que a criptografia e a decriptografia são realizadas usando a mesma chave. Também conhecida como criptografia convencional. Basicamente esta criptografia transforma um texto claro em texto cifrado, utilizando uma chave secreta e um algoritmo de criptografia. Utilizando a mesma chave e um algoritmo de decriptografia, é possível reverter o texto cifrado para o texto claro.
+
+Chave Assimétrica - A criptografia de chave pública ou criptografia assimétrica é um método de criptografia que utiliza um par de chaves: uma chave pública e uma chave privada. A chave pública é distribuída livremente para todos os correspondentes via e-mail ou outras formas, enquanto a chave privada deve ser conhecida apenas pelo seu dono.
+
+Num algoritmo de criptografia assimétrica, uma mensagem cifrada com a chave pública pode somente ser decifrada pela sua chave privada correspondente.
+Os algoritmos de chave pública podem ser utilizados para autenticidade e confidencialidade. Para confidencialidade, a chave pública é usada para cifrar mensagens, com isso apenas o dono da chave privada pode decifrá-la. Para autenticidade, a chave privada é usada para cifrar mensagens, com isso garante-se que apenas o dono da chave privada poderia ter cifrado a mensagem que foi decifrada com a “chave pública”.
+
+2. Quais as diferenças?
+
+Enquanto na chave simétrica é usado uma única chave e um único algoritimo, na chave assimétrica temos duas chaves uma pública e uma privada. Portanto num sistema de chaves simétricas qualquer pessoa que tenha posse do algoritimo e da chave conseguira decifrar a mensagem. Já em um sistema de chaves assimétrica apenas o dono de sua chave privada consegue decifrar a mensagem e através dessa chave também ele é identificado como o autor da mensagem cifrada.
+
+3. Dê exemplos reais de algoritmos.
+ 
+Chave simétrica - Playfair
+				Cifra de Vigenere
+Chave Assimétrica - Curvas elípticas - A Criptografía de Curvas Elípticas, é uma aproximação para a criptografia de chave pública com base na estrutura algébrica de curvas elípticas sobre campos finitos . A utilização de curvas elípticas em criptografia foi sugerida por Neal Koblitz e Victor S.Miller em 1985. Curvas Elípticas são também utilizadas em várias fatorações de algoritmos inteiros, que têm aplicações em criptografia.
+				     RSA - O RSA envolve um par de chaves, uma chave pública que pode ser conhecida por todos e uma chave privada que deve ser mantida em sigilo. Toda mensagem cifrada usando uma chave pública só pode ser decifrada usando a respectiva chave privada. A criptografia RSA atua diretamente na internet, por exemplo, em mensagens de emails, em compras on-line e o que você imaginar; tudo isso é codificado e recodificado pela criptografia RSA.
+
+4 - Dê um exemplo de onde elas são usadas.
+
+RSA - navegadores , para sites seguros e para criptografar e-mails
+
+5 - O que é um KDC. Dê um exemplo real.
+
+O KDC ( Centro Distribuidor de Chaves ) trata-se de um servidor centralizado também responsável pela autenticação dos usuários. O KDC autentica o usuário, também chamado principal, através de um ticket, que será utilizado para provar a identidade do usuário para os serviços disponíveis na rede.
+Ao receber de uma máquina cliente uma requisição por um ticket, o KDC cria o chamado Ticket Granting Ticket (TGT), o criptografa utilizando a senha secreta do usuário, criando a chamada chave secreta, e o envia para o cliente que fez a solicitação. O processo de autenticação inicia-se com um pedido do cliente a este servidor central, o KDC, onde estão registradas as chaves secretas dos usuários. Cada máquina cliente compartilha uma chave secreta com o KDC, o qual é o responsável por gerar chaves para serem usadas por um pequeno período de tempo durante uma determinada conexão. O KDC, então, gera uma mensagem incluindo duas componentes:
+Uma chave de sessão (session key), a qual é codificada com uma chave secreta do usuário.
+O ticket-granting ticket, (TGT), que inclui uma cópia da chave de sessão.
+
+
+6 - Como funciona o GPG?
+
+Forma de empregar a criptografia para enviar arquivos ou e-mails com garantia de de privacidade, autenticidade e integridade.
+
+Você cria um par de chaves com o seguinte comando:
+gpg --gen-key
+
+
+7 - O que e um ICP?
+
+(Infraestrutura de Chaves Públicas Brasileira)
+é um conjunto de tecnologias  que garante às transações e aos documentos eletrônicos a segurança por meio do uso de um par de chaves. Uma delas é pública (de conhecimento geral), e a outra, privada (de conhecimento somente do proprietário), cujos dados estão consolidados em um “certificado digital”.
+
+8 - Por que dá erro de certificado em alguns sitio, inclusive CAIXA?
+
+Por não possuir um certificado verificado pelo próprio navegador.
