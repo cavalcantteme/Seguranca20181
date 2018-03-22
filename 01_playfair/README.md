@@ -1,5 +1,5 @@
 Neste trabalho, foi feito um programa em python para cifrar/decifrar textos, usando o algoritimo de 
-playfair. Excluimos a letra K por ser usado uma matriz 5x5 no algoritimo e o alfabeto conter 26 letras,
+playfair. Excluimos a letra K, por ser usado uma matriz 5x5 no algoritimo e o alfabeto conter 26 letras,
 temos então uma função para verificar se o usuário digitara a letra K, se este caso for verdade a chave
 será inválidada, caso contrário damos seguimento ao programa. Temos também então a função que montara a 
 matriz a partir da chave recebida. Depois recebemos a mensagem a ser cifrada/decifrada retiramos os 
