@@ -16,6 +16,6 @@ tenho que fazer o trabalho de poo de um professor sem noção, um tal de cifra d
 
 Levamos cerca de 8hs para finalizar este projeto.
 
-Autores: Calebe Tavares Arruda Alves Pinheiro.
-	 Esdras Emanuel Mariano Moreira.
+Autores: Calebe Tavares Arruda Alves Pinheiro,
+	 Esdras Emanuel Mariano Moreira,
 	 Antonio Matheus Cavalcante da Silva.
