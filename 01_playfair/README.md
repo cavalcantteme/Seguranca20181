@@ -12,5 +12,5 @@ colega de dupla ter me explicado consegui entender o que fazer. Quano ao restant
 implementar descobrir a lógica e implementar mais facilmente. Levamos cerca de 10hs intercaladas para 
 realizar esta atividade.
 
-Autores: Calebe Tavares Arruda Alves Pinheiro.
+Autores: Calebe Tavares Arruda Alves Pinheiro,
 	 Antonio Matheus Cavalcante da Silva.
