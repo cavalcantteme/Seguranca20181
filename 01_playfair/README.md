@@ -24,6 +24,6 @@ implementar descobrir a lógica e implementar mais facilmente. Levamos cerca de 
 
 realizar esta atividade.
 
-Autores: Calebe Tavares Arruda Alves Pinheiro,
-	 
-	 Antonio Matheus Cavalcante da Silva.
+Autores: Calebe Tavares Arruda Alves Pinheiro.
+
+Antonio Matheus Cavalcante da Silva.
