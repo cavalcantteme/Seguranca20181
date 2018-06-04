@@ -164,14 +164,15 @@ Hora de quebrar no Brute Force:
 <h1>Referências</h1>
 
 <a href="https://www.jusbrasil.com.br/topicos/10730704/inciso-x-do-artigo-5-da-constituicao-federal-de-1988">Jusbrasil</a><br />
-<a href="https://imasters.com.br/artigo/6572/gerencia-de-ti/acesso-nao-autorizado-a-redes-sem-fio-e-a-legislacao-brasileira/?trace=1519021197&source=single">iMasters</a><br />
-<a href="https://hackersec.com/invadindo-wifi-kali-linux/">Hacker Security</a><br />
-<a href="https://www.youtube.com/watch?v=8mZYeAStFv4">YouTube</a><br />
+<a href="https://hackersec.com/invadindo-wifi-kali-linux/">Invadir rede WiFi com Kali Linux</a><br />
+<a href="https://www.youtube.com/watch?v=8mZYeAStFv4">Aircrack-ng + Crunch [Wifi Atack sem o uso de Wordlist]</a><br />
 <a href="https://tecnicasdeinvasao.com/linux/kali-linux/voce-sabe-o-que-e-o-kali-linux/">Você sabe o que é o Kali Linux?</a><br />
-<a href="https://canaltech.com.br/hacker/o-que-e-um-lammer/">Canaltech</a><br />
-<a href="http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html">Kali Tutorials</a><br />
-<a href="https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1">Viva o Linux</a><br />
-<a href="https://www.vivaolinux.com.br/artigo/Comandos-para-redes-wifi">Viva o Linux</a><br />
-<a href="https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA1?pagina=1">Viva o Linux</a><br />
+<a href="https://canaltech.com.br/hacker/o-que-e-um-lammer/">O que é um Lammer?</a><br />
+<a href="http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html">Hack WPA/WPA2 PSK Capturing the Handshake</a><br />
+<a href="https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1">AIRCRACK-NG</a><br />
+<a href="https://www.vivaolinux.com.br/artigo/Comandos-para-redes-wifi">Comandos para redes wifi</a><br />
+<a href="https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA1?pagina=1">Aircrack-ng e sua família para quebrar WEP e WPA1</a><br />
 
-
+<h1>Contributors</h1>
+<a href="https://github.com/cavalcantteme/">Antonio Matheus Cavalcante da Silva</a><br />
+<a href="https://github.com/calebetaap/">Calebe Tavares Arruda Alves Pinheiro</a><br />
