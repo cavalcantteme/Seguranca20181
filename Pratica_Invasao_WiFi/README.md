@@ -4,14 +4,14 @@
 <strong>Constituição Federal de 1988</strong> <br /> 
 Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um
 Estado Democrático,<br /> destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade,
-a segurança, o bem-estar, o desenvolvimento,<br /> a igualdade e a justiça como valores supremos de uma soci-<br />
-edade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem<br />
-interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus,<br />
-a seguinte _CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL. Art. 5º_ Todos são iguais perante a lei, sem<br />
-distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a<br />
-inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos<br />
-seguintes: X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado<br />
-o direito a indenização pelo dano material ou moral decorrente de sua violação;
+a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade
+fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e
+internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte
+<strong>CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL. Art. 5º</strong> Todos são iguais perante a lei,
+sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a
+inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos 
+seguintes: X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o
+direito a indenização pelo dano material ou moral decorrente de sua violação;
 </p>
 
 Pré-requisitos:
