@@ -22,9 +22,11 @@ direito a indenização pelo dano material ou moral decorrente de sua violação
 
 <h1>Fundamentação Teórica</h1>
 <strong>Kali Linux</strong><br />
+<p>
 O Kali Linux é um sistema operacional Linux baseado no Debian, que é desenvolvido pela pequena e consagrada equipe da Offensive Security. Ele contém mais de 300 ferramentas nativas para testes de invasão, penetração, força bruta, forense entre outras. Atualmente é um dos sistemas mais famosos no mundo na área de e segurança da informação. Muito utilizado por hackers, pentesters, analistas e auditores de segurança da informação.
 O Kali Linux chegou para ficar no lugar do descontinuado BackTrack, sistema operacional Linux baseado no Ubuntu, lançado em 2006, com o mesmo objetivo de construção. Podemos considerar que o BackTrack apenas mudou de “nome” para Kali Linux, que é uma versão melhorada do antigo sistema favorito dos hackers e auditores de segurança.
 Ele já vem pronto para o uso, com o Kali Linux é possível fazer Pentests (Teste de penetração), SQL Inject, Exploits, Sniffers, Scanner, Cracking e Ataques. Bem como invasão de redes sem fio, sites e banco de dados. Quebra de senhas e muito mais!
+</p>
 <ul>
 <li>Mais de 300 ferramentas nativas para teste de invasão e auditoria de segurança;</li>
 <li>Você pode instalar ele como OS principal, rodar direto de um pendrive ou instalar em uma máquina virtual;</li>
@@ -37,12 +39,15 @@ Ele já vem pronto para o uso, com o Kali Linux é possível fazer Pentests (Tes
 <li>Arquiteturas x32 e x64.</li>
 </ul>
 <strong>Lammers</strong><br />
+<p>
 Lammer ou Lamer é um termo utilizado para as pessoas que não possuem nenhum ou pouco conhecimento sobre hack e utilizam ferramentas desenvolvidas por outros para realizarem seus ataques. Conhecido atualmente também por "Script Kiddie", Lammer foi um termo depreciativo utilizado com maior frequência no final da década de 80 e durante os anos 90, atribuído àqueles que realizam ações na área da segurança da informação, mas não possuem conhecimento hábil e necessário para desenvolverem suas próprias ferramentas e executarem trabalhos profissionais.
 Ao contrário de hackers, os ataques de lammers quase sempre são amadores, justamente pelo baixo conhecimento que possuem sobre programação e tecnologia. Alguns desses são apenas curiosos aventureiros da internet e do mundo virtual, procurando por diversão, ou novas maneiras de se satisfazerem na internet.<br />
+</p>
 <strong>WPA HANDSHAKE</strong><br />
+<p>
 O que você precisa é de você, o invasor, um cliente que se conectará à rede sem fio e o ponto de acesso sem fio. O que acontece é quando o cliente e o ponto de acesso se comunicam para autenticar o cliente, eles têm um handshake de 4 vias que podemos capturar. Este handshake tem o hash da senha. Agora não há nenhuma maneira direta de obter a senha do hash e, portanto, hashing é um método de proteção robusto. Mas há uma coisa que podemos fazer. Podemos pegar todas as senhas possíveis que existem e convertê-las em hash. Então, combinaremos o hash que criamos com o que está lá no aperto de mão. Agora, se os hashes coincidirem, sabemos qual senha de texto simples deu origem ao hash, portanto, sabemos a senha. Se o processo parece muito demorado para você, então é porque é. O WPA hacking (e o hash cracking em geral) é um processo bastante intensivo em termos de recursos e tempo.<br />
-
-<h1>Comandos Utilizados<h1>
+</p>
+<h1>Comandos Utilizados</h1>
 <strong>airmon-ng check kill:</strong> Verifica quais processos precisam receberem o kill (matar) e dá um kill nos processos necessários.<br />
 <strong>iwconfig:</strong> O iwconfig é similar ao comando ifconfig, mas é usado para redes wifi. Com este comando pode-se verificar diversas características das redes wireless.<br />
 <strong>airmon-ng:</strong> Esta é a ferramenta para colocarmos nossa placa de rede wireless no estado monitor! Devemos fazer isso antes de começar a capturar pacotes da rede wireless. <br />
