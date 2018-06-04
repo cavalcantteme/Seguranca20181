@@ -7,15 +7,15 @@ Estado Democrático,<br /> destinado a assegurar o exercício dos direitos socia
 a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade
 fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e
 internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte
-<strong>CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL. Art. 5º</strong> Todos são iguais perante a lei,
+<strong>CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL.<br /> Art. 5º</strong> Todos são iguais perante a lei,
 sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a
 inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos 
-seguintes: X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o
-direito a indenização pelo dano material ou moral decorrente de sua violação;
+seguintes: <strong>X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o
+direito a indenização pelo dano material ou moral decorrente de sua violação;</strong>
 </p>
 
-Pré-requisitos:
-Kali Linux
+<h1>Pré-requisitos</h1>
+Kali Linux<br />
 Adaptador Wi-Fi USB (caso o Kali seja instalado em uma máquina virtual, pois não há como usar a própria placa de rede sem para realizar as invasões)
 
 
