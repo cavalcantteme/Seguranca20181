@@ -128,15 +128,14 @@ Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você 
 <strong>CH:</strong> canal na qual a rede está ...OPERANDO…?<br />
 <strong>ESSID:</strong> nome que é visível na rede.<br />
 </p>
-
+<p>
 Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
 <p>
 <pre><code>airodump-ng -c <canal_da_rede_alvo> --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima. E explicar os parâmetros
-<br />
-
+</p>
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
@@ -162,9 +161,10 @@ Hora de quebrar no Brute Force:
 </p>
 </p>
 
-Referências:
-https://www.jusbrasil.com.br/topicos/10730704/inciso-x-do-artigo-5-da-constituicao-federal-de-1988
-https://imasters.com.br/artigo/6572/gerencia-de-ti/acesso-nao-autorizado-a-redes-sem-fio-e-a-legislacao-brasileira/?trace=1519021197&source=single
+<h1>Referências</h1>
+
+<a href="https://www.jusbrasil.com.br/topicos/10730704/inciso-x-do-artigo-5-da-constituicao-federal-de-1988">Jusbrasil</a>
+<a "https://imasters.com.br/artigo/6572/gerencia-de-ti/acesso-nao-autorizado-a-redes-sem-fio-e-a-legislacao-brasileira/?trace=1519021197&source=single">iMasters</a>
 https://hackersec.com/invadindo-wifi-kali-linux/
 https://www.youtube.com/watch?v=8mZYeAStFv4
 https://tecnicasdeinvasao.com/linux/kali-linux/voce-sabe-o-que-e-o-kali-linux/
