@@ -81,31 +81,31 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 </ul>
 
 <h1>Tutorial</h1>
-
+<p>
 Verificar o nome da sua interface Wi-FI:<br />
 <p>
 <pre><code>iwconfig
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima.
-<br /> 
-
+</p> 
+<p>
 Após verificar o nome da interface, deve-se verificar se o Kali está reconhecendo o driver da interface sem fio: 
 <p>
 <pre><code>airmon-ng
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima.
-<br />
-
+</p>
+<p>
 Após isso deve-se verificar se tem algum processo que pode acabar atrapalhando o processo de captura de pacotes:
 <p>
 <pre><code>airmon-ng check kill
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima.
-<br />
-
+</p>
+<p>
 Vamos colocar nossa placa de rede em modo monitor:
 <p>
 <pre><code>airmon-ng start wlan0
@@ -113,23 +113,23 @@ iwconfig
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima.
-<br />
-
+</p>
+<p>
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
 <p>
 <pre><code>airodump-ng wlan0mon 
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima.
-<br />
+</p>
 <p>
 É importante levar em conta o alcance da rede a ser invadida, pois caso esteja distante, o WPA HANDSHAKE não consiga ser capturado.
 </p>
 <p>
-Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:
-BSSID: dizer o que é.<br /> 
-CH: canal na qual a rede está ...OPERANDO…?<br />
-ESSID: nome que é visível na rede.<br />
+Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
+<strong>BSSID:</strong> dizer o que é.<br /> 
+<strong>CH:</strong> canal na qual a rede está ...OPERANDO…?<br />
+<strong>ESSID:</strong> nome que é visível na rede.<br />
 </p>
 
 Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente.
@@ -142,14 +142,15 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <p>
 É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
 </p>
-Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: ou você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
+<p>
+Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
 <pre><code>aireplay-ng -0 10 -a <BSSID> wlanmon
 </code></pre>
 </p>
 #Mostrar a imagem
-<br />
-
+</p>
+<p>
 verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
 </p>
 <pre><code>ls
@@ -157,14 +158,14 @@ aircrack-ng dados-01.cap
 </code></pre>
 </p>
 #IMAGEM DO QUE APARECERÁ COM O COMANDO.
-<br />
-
+</p>
+<p>
 Hora de quebrar no Brute Force:
 <p>
 <pre><code>crunch 10 10 <padrão> ...
 </code></pre>
 </p>
-
+</p>
 
 Referências:
 https://www.jusbrasil.com.br/topicos/10730704/inciso-x-do-artigo-5-da-constituicao-federal-de-1988
