@@ -47,7 +47,7 @@ Ao contrário de hackers, os ataques de lammers quase sempre são amadores, just
 <p>
 O que você precisa é de você, o invasor, um cliente que se conectará à rede sem fio e o ponto de acesso sem fio. O que acontece é quando o cliente e o ponto de acesso se comunicam para autenticar o cliente, eles têm um handshake de 4 vias que podemos capturar. Este handshake tem o hash da senha. Agora não há nenhuma maneira direta de obter a senha do hash e, portanto, hashing é um método de proteção robusto. Mas há uma coisa que podemos fazer. Podemos pegar todas as senhas possíveis que existem e convertê-las em hash. Então, combinaremos o hash que criamos com o que está lá no aperto de mão. Agora, se os hashes coincidirem, sabemos qual senha de texto simples deu origem ao hash, portanto, sabemos a senha. Se o processo parece muito demorado para você, então é porque é. O WPA hacking (e o hash cracking em geral) é um processo bastante intensivo em termos de recursos e tempo.<br />
 </p>
-<h1>Comandos Utilizados</h1>
+<h1>Ferramentas Utilizadas</h1>
 <p>
 <strong>AIRMON-NG CHECK KILL</strong><br />
 Verifica quais processos precisam receberem o kill (matar) e dá um kill nos processos necessários.<br />
@@ -116,35 +116,54 @@ iwconfig
 <br />
 
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
-comando: airodump-ng wlan0mon 
+<p>
+<pre><code>airodump-ng wlan0mon 
+</code></pre>
+</p>
 #Colocar imagem do que aparece quando se dá o comando acima.
+<br />
+<p>
 É importante levar em conta o alcance da rede a ser invadida, pois caso esteja distante, o WPA HANDSHAKE não consiga ser capturado.
-
+</p>
+<p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:
-BSSID: dizer o que é. 
-CH: canal na qual a rede está ...OPERANDO…?
-ESSID: nome que é visível na rede.
+BSSID: dizer o que é.<br /> 
+CH: canal na qual a rede está ...OPERANDO…?<br />
+ESSID: nome que é visível na rede.<br />
+</p>
 
 Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente.
-comando: airodump-ng -c <canal_da_rede_alvo> --bssid [bssid_da_rede_alvo] -w dados
+<p>
+<pre><code>airodump-ng -c <canal_da_rede_alvo> --bssid [bssid_da_rede_alvo] -w dados
+</code></pre>
+</p>
 #Colocar imagem do que aparece quando se dá o comando acima. E explicar os parâmetros
+<br />
+<p>
 É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
-
-Hora de capturar o tão esperado WPA HANDSHAKE:
-Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: ou você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
-comando: aireplay-ng -0 10 -a <BSSID> wlanmon
+</p>
+Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: ou você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
+<p>
+<pre><code>aireplay-ng -0 10 -a <BSSID> wlanmon
+</code></pre>
+</p>
 #Mostrar a imagem
+<br />
+
 verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
-comando: ls
-comando: aircrack-ng dados-01.cap
+</p>
+<pre><code>ls
+aircrack-ng dados-01.cap
+</code></pre>
+</p>
 #IMAGEM DO QUE APARECERÁ COM O COMANDO.
+<br />
 
 Hora de quebrar no Brute Force:
-comando: crunch 10 10 <padrão> ...
-
-
-
-
+<p>
+<pre><code>crunch 10 10 <padrão> ...
+</code></pre>
+</p>
 
 
 Referências:
