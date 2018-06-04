@@ -49,17 +49,27 @@ O que você precisa é de você, o invasor, um cliente que se conectará à rede
 </p>
 <h1>Comandos Utilizados</h1>
 <p>
-<strong>airmon-ng check kill</strong><br />
+<strong>AIRMON-NG CHECK KILL</strong><br />
 Verifica quais processos precisam receberem o kill (matar) e dá um kill nos processos necessários.<br />
-<strong>iwconfig</strong><br />
+</p>
+<p>
+<strong>IWCONFIG</strong><br />
 O iwconfig é similar ao comando ifconfig, mas é usado para redes wifi. Com este comando pode-se verificar diversas características das redes wireless.<br />
-<strong>airmon-ng</strong><br />
+</p>
+<p>
+<strong>AIRMON-NG</strong><br />
 Esta é a ferramenta para colocarmos nossa placa de rede wireless no estado monitor! Devemos fazer isso antes de começar a capturar pacotes da rede wireless. <br />
-<strong>airomdump-ng</strong><br />
+</p>
+<p>
+<strong>AIRODUMP-NG</strong><br />
 Sua principal finalidade é capturar e coletar ivs (Initialization Vectors) dos pacotes WEP.<br />
-<strong>aircrack-ng</strong><br />
+</p>
+<p>
+<strong>AIRCRACK-NG</strong><br />
 A partir dos dados coletados pelo airodump-ng usaremos esta ferramenta para sabermos qual chave esse pacote WEP que capturamos está usando.<br />
-<strong>aireplay-ng</strong><br />
+</p>
+<p>
+<strong>AIREPLAY-NG</strong><br />
 A função principal é gerar tráfego para uso posterior no aircrack-ng para quebrar chaves WEP e WPA-PSK. Esta ferramenta nos dá cinco maneiras diferentes de atacar. O programa aireplay-ng classifica da seguinte maneira:<br />
 </p>
 <ul>
