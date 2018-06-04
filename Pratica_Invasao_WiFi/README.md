@@ -48,12 +48,20 @@ Ao contrário de hackers, os ataques de lammers quase sempre são amadores, just
 O que você precisa é de você, o invasor, um cliente que se conectará à rede sem fio e o ponto de acesso sem fio. O que acontece é quando o cliente e o ponto de acesso se comunicam para autenticar o cliente, eles têm um handshake de 4 vias que podemos capturar. Este handshake tem o hash da senha. Agora não há nenhuma maneira direta de obter a senha do hash e, portanto, hashing é um método de proteção robusto. Mas há uma coisa que podemos fazer. Podemos pegar todas as senhas possíveis que existem e convertê-las em hash. Então, combinaremos o hash que criamos com o que está lá no aperto de mão. Agora, se os hashes coincidirem, sabemos qual senha de texto simples deu origem ao hash, portanto, sabemos a senha. Se o processo parece muito demorado para você, então é porque é. O WPA hacking (e o hash cracking em geral) é um processo bastante intensivo em termos de recursos e tempo.<br />
 </p>
 <h1>Comandos Utilizados</h1>
-<strong>airmon-ng check kill:</strong> Verifica quais processos precisam receberem o kill (matar) e dá um kill nos processos necessários.<br />
-<strong>iwconfig:</strong> O iwconfig é similar ao comando ifconfig, mas é usado para redes wifi. Com este comando pode-se verificar diversas características das redes wireless.<br />
-<strong>airmon-ng:</strong> Esta é a ferramenta para colocarmos nossa placa de rede wireless no estado monitor! Devemos fazer isso antes de começar a capturar pacotes da rede wireless. <br />
-<strong>airomdump-ng:</strong> Sua principal finalidade é capturar e coletar ivs (Initialization Vectors) dos pacotes WEP.<br />
-<strong>aircrack-ng:</strong> A partir dos dados coletados pelo airodump-ng usaremos esta ferramenta para sabermos qual chave esse pacote WEP que capturamos está usando.<br />
-<strong>aireplay-ng:</strong> A função principal é gerar tráfego para uso posterior no aircrack-ng para quebrar chaves WEP e WPA-PSK. Esta ferramenta nos dá cinco maneiras diferentes de atacar. O programa aireplay-ng classifica da seguinte maneira:<br />
+<p>
+<strong>airmon-ng check kill</strong><br />
+Verifica quais processos precisam receberem o kill (matar) e dá um kill nos processos necessários.<br />
+<strong>iwconfig</strong><br />
+O iwconfig é similar ao comando ifconfig, mas é usado para redes wifi. Com este comando pode-se verificar diversas características das redes wireless.<br />
+<strong>airmon-ng</strong><br />
+Esta é a ferramenta para colocarmos nossa placa de rede wireless no estado monitor! Devemos fazer isso antes de começar a capturar pacotes da rede wireless. <br />
+<strong>airomdump-ng</strong><br />
+Sua principal finalidade é capturar e coletar ivs (Initialization Vectors) dos pacotes WEP.<br />
+<strong>aircrack-ng</strong><br />
+A partir dos dados coletados pelo airodump-ng usaremos esta ferramenta para sabermos qual chave esse pacote WEP que capturamos está usando.<br />
+<strong>aireplay-ng</strong><br />
+A função principal é gerar tráfego para uso posterior no aircrack-ng para quebrar chaves WEP e WPA-PSK. Esta ferramenta nos dá cinco maneiras diferentes de atacar. O programa aireplay-ng classifica da seguinte maneira:<br />
+</p>
 <ul>
 <li>Desautenticação: Faz com que o usuário conectado ao AP (Access Point) desautentique e volte a conectar, fazendo assim que ele faça uma nova requisição ARP e enviar um novo handshake.</li>
 <li>Autenticação falsa: Este ataque funciona com êxito quando temos um cliente conectado ao AP, caso não tenha, faremos uma cliente para conectar a esse AP. Mas lembre-se, é melhor quando temos uma cliente conectado ao AP, pois assim geraremos tráfego ARP.</li>
