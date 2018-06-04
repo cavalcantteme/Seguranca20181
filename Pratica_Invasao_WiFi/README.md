@@ -2,8 +2,8 @@
 
 <p>
 _Constituição Federal de 1988_ <br /> 
-Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um <br />
-Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade,<br />
+Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um
+Estado Democrático,<br /> destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade,<br />
 a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma soci-<br />
 edade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem<br />
 interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus,<br />
