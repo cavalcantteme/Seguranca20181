@@ -15,12 +15,13 @@ direito a indenização pelo dano material ou moral decorrente de sua violação
 </p>
 
 <h1>Pré-requisitos</h1>
-Kali Linux<br />
-Adaptador Wi-Fi USB (caso o Kali seja instalado em uma máquina virtual, pois não há como usar a própria placa de rede sem para realizar as invasões)
+<ul>
+<li>Kali Linux</li>
+<li>Adaptador Wi-Fi USB (Apenas em caso de máquina virtual)</li>
+</ul>
 
-
-Fundamentação Teórica:
-Kali Linux:
+<h1>Fundamentação Teórica</h1>
+<strong>Kali Linux</strong>
 O Kali Linux é um sistema operacional Linux baseado no Debian, que é desenvolvido pela pequena e consagrada equipe da Offensive Security. Ele contém mais de 300 ferramentas nativas para testes de invasão, penetração, força bruta, forense entre outras. Atualmente é um dos sistemas mais famosos no mundo na área de e segurança da informação. Muito utilizado por hackers, pentesters, analistas e auditores de segurança da informação.
 O Kali Linux chegou para ficar no lugar do descontinuado BackTrack, sistema operacional Linux baseado no Ubuntu, lançado em 2006, com o mesmo objetivo de construção. Podemos considerar que o BackTrack apenas mudou de “nome” para Kali Linux, que é uma versão melhorada do antigo sistema favorito dos hackers e auditores de segurança.
 Ele já vem pronto para o uso, com o Kali Linux é possível fazer Pentests (Teste de penetração), SQL Inject, Exploits, Sniffers, Scanner, Cracking e Ataques. Bem como invasão de redes sem fio, sites e banco de dados. Quebra de senhas e muito mais!
