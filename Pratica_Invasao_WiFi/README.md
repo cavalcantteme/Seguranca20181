@@ -124,7 +124,7 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 </p>
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
-<strong>BSSID:</strong><em>Basic Service Set Identifier</em> se refere ao endereço MAC de um adaptador sem fio ou de um ponto de acesso.Sua função é identificar exclusivamente um ponto de acesso que enviará sinais pra transmissão da rede sem fio.<br /> 
+<strong>BSSID:</strong> <em>Basic Service Set Identifier</em> se refere ao endereço MAC de um adaptador sem fio ou de um ponto de acesso.Sua função é identificar exclusivamente um ponto de acesso que enviará sinais pra transmissão da rede sem fio.<br /> 
 <strong>CH:</strong> Canal na qual a rede está operando.<br />
 <strong>ESSID:</strong> nome que é visível na rede.<br />
 </p>
