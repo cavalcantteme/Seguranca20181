@@ -164,14 +164,14 @@ Hora de quebrar no Brute Force:
 <h1>Referências</h1>
 
 <a href="https://www.jusbrasil.com.br/topicos/10730704/inciso-x-do-artigo-5-da-constituicao-federal-de-1988">Jusbrasil</a>
-<a "https://imasters.com.br/artigo/6572/gerencia-de-ti/acesso-nao-autorizado-a-redes-sem-fio-e-a-legislacao-brasileira/?trace=1519021197&source=single">iMasters</a>
-https://hackersec.com/invadindo-wifi-kali-linux/
-https://www.youtube.com/watch?v=8mZYeAStFv4
-https://tecnicasdeinvasao.com/linux/kali-linux/voce-sabe-o-que-e-o-kali-linux/
-https://canaltech.com.br/hacker/o-que-e-um-lammer/
-http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html
-https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1
-https://www.vivaolinux.com.br/artigo/Comandos-para-redes-wifi
-https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA1?pagina=1
+<a href="https://imasters.com.br/artigo/6572/gerencia-de-ti/acesso-nao-autorizado-a-redes-sem-fio-e-a-legislacao-brasileira/?trace=1519021197&source=single">iMasters</a>
+<a href="https://hackersec.com/invadindo-wifi-kali-linux/">Hacker Security</a>
+<a href="https://www.youtube.com/watch?v=8mZYeAStFv4">YouTube</a>
+<a href="https://tecnicasdeinvasao.com/linux/kali-linux/voce-sabe-o-que-e-o-kali-linux/">Você sabe o que é o Kali Linux?</a>
+<a href="https://canaltech.com.br/hacker/o-que-e-um-lammer/">Canaltech</a>
+<a href="http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html">Kali Tutorials</a>
+<a href="https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1">Viva o Linux</a>
+<a href="https://www.vivaolinux.com.br/artigo/Comandos-para-redes-wifi">Viva o Linux</a>
+<a href="https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA1?pagina=1">Viva o Linux</a>
 
 
