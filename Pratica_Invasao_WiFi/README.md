@@ -73,17 +73,22 @@ A partir dos dados coletados pelo airodump-ng usaremos esta ferramenta para sabe
 A função principal é gerar tráfego para uso posterior no aircrack-ng para quebrar chaves WEP e WPA-PSK. Esta ferramenta nos dá cinco maneiras diferentes de atacar. O programa aireplay-ng classifica da seguinte maneira:<br />
 </p>
 <ul>
-<li>Desautenticação: Faz com que o usuário conectado ao AP (Access Point) desautentique e volte a conectar, fazendo assim que ele faça uma nova requisição ARP e enviar um novo handshake.</li>
-<li>Autenticação falsa: Este ataque funciona com êxito quando temos um cliente conectado ao AP, caso não tenha, faremos uma cliente para conectar a esse AP. Mas lembre-se, é melhor quando temos uma cliente conectado ao AP, pois assim geraremos tráfego ARP.</li>
-<li>Seleção interativa do pacote a enviar: Ele pode selecionar um pacote qualquer e enviá-lo.</li>
-<li>Reinjeção de requisição ARP: É o mais efetivo para gerar IVs. Este ataque requer um MAC de um cliente associado ou um MAC falso. Este ataque pode demorar bastante, até que apareça a requisição ARP, ele falhará rapidamente se não houver tráfego. </li>
-<li>Ataque de KoreK chopchop: Este ataque é ótimo quando bem sucedido, pois ele desencripta um pacote WEP sem conhecer a sua chave e também pode usar uma WEP dinâmica.</li>
+<li><strong>Desautenticação:</strong> Faz com que o usuário conectado ao AP (Access Point) desautentique e volte a conectar, fazendo assim que ele faça uma nova requisição ARP e enviar um novo handshake.</li>
+<li><strong>Autenticação falsa:</strong> Este ataque funciona com êxito quando temos um cliente conectado ao AP, caso não tenha, faremos uma cliente para conectar a esse AP. Mas lembre-se, é melhor quando temos uma cliente conectado ao AP, pois assim geraremos tráfego ARP.</li>
+<li><strong>Seleção interativa do pacote a enviar:</strong> Ele pode selecionar um pacote qualquer e enviá-lo.</li>
+<li><strong>Reinjeção de requisição ARP:</strong> É o mais efetivo para gerar IVs. Este ataque requer um MAC de um cliente associado ou um MAC falso. Este ataque pode demorar bastante, até que apareça a requisição ARP, ele falhará rapidamente se não houver tráfego. </li>
+<li><strong>Ataque de KoreK chopchop:</strong> Este ataque é ótimo quando bem sucedido, pois ele desencripta um pacote WEP sem conhecer a sua chave e também pode usar uma WEP dinâmica.</li>
 </ul>
+
 <h1>Tutorial</h1>
 
-Deve-se verificar o nome da sua interface Wi-FI:
-Comando: iwconfig
-#Colocar imagem do que aparece quando se dá o comando acima. 
+Verificar o nome da sua interface Wi-FI:<br />
+<p>
+<pre><code>iwconfig
+</code></pre>
+</p>
+#Colocar imagem do que aparece quando se dá o comando acima.
+<br /> 
 
 Após verificar o nome da interface, deve-se verificar se o Kali está reconhecendo o driver da interface sem fio: 
 comando: airmon-ng
