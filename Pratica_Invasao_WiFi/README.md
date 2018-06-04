@@ -91,19 +91,29 @@ Verificar o nome da sua interface Wi-FI:<br />
 <br /> 
 
 Após verificar o nome da interface, deve-se verificar se o Kali está reconhecendo o driver da interface sem fio: 
-comando: airmon-ng
+<p>
+<pre><code>airmon-ng
+</code></pre>
+</p>
 #Colocar imagem do que aparece quando se dá o comando acima.
+<br />
 
-Após isso deve-se se tem algum processo que pode acabar atrapalhando o processo de captura de pacotes:
-comando: airmon-ng check kill
+Após isso deve-se verificar se tem algum processo que pode acabar atrapalhando o processo de captura de pacotes:
+<p>
+<pre><code>airmon-ng check kill
+</code></pre>
+</p>
 #Colocar imagem do que aparece quando se dá o comando acima.
+<br />
 
-Hora de começar:
-
-Vamos colocar nossa placa de rede em modo monitor!
-comando: airmon-ng start wlan0
-comando: iwconfig
+Vamos colocar nossa placa de rede em modo monitor:
+<p>
+<pre><code>airmon-ng start wlan0
+iwconfig
+</code></pre>
+</p>
 #Colocar imagem do que aparece quando se dá o comando acima.
+<br />
 
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
 comando: airodump-ng wlan0mon 
