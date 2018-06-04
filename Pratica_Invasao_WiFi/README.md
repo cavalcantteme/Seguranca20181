@@ -1,10 +1,10 @@
 <h1>Tutorial de invasão à redes Wi-Fi WPA2</h1>
 
 <p>
-_Constituição Federal de 1988_ <br /> 
+<em>Constituição Federal de 1988</em> <br /> 
 Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um
-Estado Democrático,<br /> destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade,<br />
-a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma soci-<br />
+Estado Democrático,<br /> destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade,
+a segurança, o bem-estar,<br /> o desenvolvimento, a igualdade e a justiça como valores supremos de uma soci-<br />
 edade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem<br />
 interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus,<br />
 a seguinte _CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL. Art. 5º_ Todos são iguais perante a lei, sem<br />
