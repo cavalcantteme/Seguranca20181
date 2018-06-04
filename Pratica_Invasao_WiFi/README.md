@@ -115,15 +115,12 @@ iwconfig
 #Colocar imagem do que aparece quando se dá o comando acima.
 </p>
 <p>
-Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
+Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques. É importante levar em conta o alcance da rede a ser invadida, pois caso esteja distante, o WPA HANDSHAKE não consiga ser capturado.
 <p>
 <pre><code>airodump-ng wlan0mon 
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima.
-</p>
-<p>
-É importante levar em conta o alcance da rede a ser invadida, pois caso esteja distante, o WPA HANDSHAKE não consiga ser capturado.
 </p>
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
@@ -132,16 +129,14 @@ Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você 
 <strong>ESSID:</strong> nome que é visível na rede.<br />
 </p>
 
-Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente.
+Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
 <p>
 <pre><code>airodump-ng -c <canal_da_rede_alvo> --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
 </p>
 #Colocar imagem do que aparece quando se dá o comando acima. E explicar os parâmetros
 <br />
-<p>
-É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
-</p>
+
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
