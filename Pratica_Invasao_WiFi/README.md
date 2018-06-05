@@ -136,7 +136,7 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
-<pre><code>aireplay-ng -0 10 -a [bssid_da_rede_alvo] wlanmon
+<pre><code>aireplay-ng -0 10 -a [bssid_da_rede_alvo] wlan0mon
 </code></pre>
 </p>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aireplay-ng.png"/>
