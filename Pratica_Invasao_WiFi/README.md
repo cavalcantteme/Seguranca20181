@@ -43,7 +43,7 @@ Ele já vem pronto para o uso, com o Kali Linux é possível fazer Pentests (Tes
 Lammer ou Lamer é um termo utilizado para as pessoas que não possuem nenhum ou pouco conhecimento sobre hack e utilizam ferramentas desenvolvidas por outros para realizarem seus ataques. Conhecido atualmente também por "Script Kiddie", Lammer foi um termo depreciativo utilizado com maior frequência no final da década de 80 e durante os anos 90, atribuído àqueles que realizam ações na área da segurança da informação, mas não possuem conhecimento hábil e necessário para desenvolverem suas próprias ferramentas e executarem trabalhos profissionais.
 Ao contrário de hackers, os ataques de lammers quase sempre são amadores, justamente pelo baixo conhecimento que possuem sobre programação e tecnologia. Alguns desses são apenas curiosos aventureiros da internet e do mundo virtual, procurando por diversão, ou novas maneiras de se satisfazerem na internet.<br />
 </p>
-<strong>WPA2</stong><br />
+<strong>WPA2</strong><br />
 <p>
 O WPA2, criado em 2003, corresponde à versão final do 802.11i e foi lançado no ano seguinte. A tecnologia veio em substituição à WPA "Wi-fi Alliance", pois embora fosse bem segura em relação ao padrão anterior existente, o WEP, a "Wi-fi Alliance" precisou fazer um novo certificado para as redes sem fio, tornando-as mais confiáveis. O WPA2 é um protocolo de certificação que utiliza o AES (Advanced Encryption Standard), sistema de encriptação mais seguro e mais pesado do que o WPA original. O AES é um sistema de encriptografia bastante seguro, baseado na utilização das chaves com 128 a 256 bits. Até mesmo o governo dos Estados Unidos faz uso desse sistema que torna a tarefa de invasão dos sistemas, mesmo diante de uma falha no algoritmo, bem mais complicada.
 </p>
@@ -171,7 +171,7 @@ Hora de quebrar no Brute Force:
 <a href="https://hackersec.com/invadindo-wifi-kali-linux/">Invadir rede WiFi com Kali Linux</a><br />
 <a href="https://www.youtube.com/watch?v=8mZYeAStFv4">Aircrack-ng + Crunch [Wifi Atack sem o uso de Wordlist]</a><br />
 <a href="https://tecnicasdeinvasao.com/linux/kali-linux/voce-sabe-o-que-e-o-kali-linux/">Você sabe o que é o Kali Linux?</a><br />
-<a href="https://canaltech.com.br/seguranca/O-que-e-WPA2/">O que é WPA2?></a><br />
+<a href="https://canaltech.com.br/seguranca/O-que-e-WPA2/">O que é WPA2?</a><br />
 <a href="https://canaltech.com.br/hacker/o-que-e-um-lammer/">O que é um Lammer?</a><br />
 <a href="http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html">Hack WPA/WPA2 PSK Capturing the Handshake</a><br />
 <a href="https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1">AIRCRACK-NG</a><br />
@@ -179,5 +179,5 @@ Hora de quebrar no Brute Force:
 <a href="https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA1?pagina=1">Aircrack-ng e sua família para quebrar WEP e WPA1</a><br />
 
 <h1>Contributors</h1>
-<a href="https://github.com/cavalcantteme/">Antonio Matheus Cavalcante da Silva</a><br />
-<a href="https://github.com/calebetaap/">Calebe Tavares Arruda Alves Pinheiro</a><br />
+<strong><a href="https://github.com/cavalcantteme/">Antonio Matheus Cavalcante da Silva</a><br />
+<a href="https://github.com/calebetaap/">Calebe Tavares Arruda Alves Pinheiro</a></strong><br />
