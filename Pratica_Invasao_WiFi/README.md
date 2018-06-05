@@ -1,4 +1,4 @@
-<h1>Tutorial de invasão à redes Wi-Fi WPA2</h1>
+<h1>Invadindo Redes Wi-Fi WPA2</h1>
 
 <p>
 <strong>Constituição Federal de 1988</strong> <br /> 
@@ -80,14 +80,14 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 <li><strong>Ataque de KoreK chopchop:</strong> Este ataque é ótimo quando bem sucedido, pois ele desencripta um pacote WEP sem conhecer a sua chave e também pode usar uma WEP dinâmica.</li>
 </ul>
 
-<h1>Tutorial</h1>
+<h1>Pratica</h1>
 <p>
 Verificar o nome da sua interface Wi-FI:<br />
 <p>
 <pre><code>iwconfig
 </code></pre>
 </p>
-#Colocar imagem do que aparece quando se dá o comando acima.
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/iwconfig.png"/>
 </p> 
 <p>
 Após verificar o nome da interface, deve-se verificar se o Kali está reconhecendo o driver da interface sem fio: 
@@ -95,7 +95,7 @@ Após verificar o nome da interface, deve-se verificar se o Kali está reconhece
 <pre><code>airmon-ng
 </code></pre>
 </p>
-#Colocar imagem do que aparece quando se dá o comando acima.
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airmon-ng.png"/>
 </p>
 <p>
 Após isso deve-se verificar se tem algum processo que pode acabar atrapalhando o processo de captura de pacotes:
@@ -103,7 +103,7 @@ Após isso deve-se verificar se tem algum processo que pode acabar atrapalhando 
 <pre><code>airmon-ng check kill
 </code></pre>
 </p>
-#Colocar imagem do que aparece quando se dá o comando acima.
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airmon-ng_checkkill.png"/>
 </p>
 <p>
 Vamos colocar nossa placa de rede em modo monitor:
@@ -112,7 +112,7 @@ Vamos colocar nossa placa de rede em modo monitor:
 iwconfig
 </code></pre>
 </p>
-#Colocar imagem do que aparece quando se dá o comando acima.
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airmon-ng_startwlan.png"/>
 </p>
 <p>
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques. É importante levar em conta o alcance da rede a ser invadida, pois caso esteja distante, o WPA HANDSHAKE não consiga ser capturado.
@@ -120,7 +120,7 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 <pre><code>airodump-ng wlan0mon 
 </code></pre>
 </p>
-#Colocar imagem do que aparece quando se dá o comando acima.
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airodump-ng_wlan0.png"/>
 </p>
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
