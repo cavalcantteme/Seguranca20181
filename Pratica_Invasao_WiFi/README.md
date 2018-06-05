@@ -131,7 +131,7 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <pre><code>airodump-ng -c <canal_da_rede_alvo> --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
 </p>
-#Colocar imagem do que aparece quando se dá o comando acima. E explicar os parâmetros
+<img src"https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airodump.png"/>
 </p>
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
@@ -139,7 +139,7 @@ Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é prec
 <pre><code>aireplay-ng -0 10 -a <BSSID> wlanmon
 </code></pre>
 </p>
-#Mostrar a imagem
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aireplay-ng.png"/>
 </p>
 <p>
 verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
