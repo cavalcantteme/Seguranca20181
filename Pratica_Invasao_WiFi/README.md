@@ -145,7 +145,7 @@ Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é prec
 verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
 </p>
 <pre><code>ls
-aircrack-ng dados-01.cap
+aircrack-ng net-01.cap
 </code></pre>
 </p>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng.png"/>
@@ -156,6 +156,8 @@ Hora de quebrar no Brute Force:
 <pre><code>crunch [min] [max] [padrão] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng2.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng3.png"/>
 </p>
 
 <h1>Referências</h1>
