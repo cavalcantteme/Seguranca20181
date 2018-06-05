@@ -148,12 +148,12 @@ verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execuçã
 aircrack-ng dados-01.cap
 </code></pre>
 </p>
-#IMAGEM DO QUE APARECERÁ COM O COMANDO.
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng.png"/>
 </p>
 <p>
 Hora de quebrar no Brute Force:
 <p>
-<pre><code>crunch [min] [max] [padrão] | aircrack-ng [dados-01.cap] -w - -e [essid_da_rede_alvo]
+<pre><code>crunch [min] [max] [padrão] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 </p>
 </p>
