@@ -171,6 +171,7 @@ Hora de quebrar no Brute Force:
 <a href="https://hackersec.com/invadindo-wifi-kali-linux/">Invadir rede WiFi com Kali Linux</a><br />
 <a href="https://www.youtube.com/watch?v=8mZYeAStFv4">Aircrack-ng + Crunch [Wifi Atack sem o uso de Wordlist]</a><br />
 <a href="https://tecnicasdeinvasao.com/linux/kali-linux/voce-sabe-o-que-e-o-kali-linux/">Você sabe o que é o Kali Linux?</a><br />
+<a href="https://canaltech.com.br/seguranca/O-que-e-WPA2/">O que é WPA2?></a><br />
 <a href="https://canaltech.com.br/hacker/o-que-e-um-lammer/">O que é um Lammer?</a><br />
 <a href="http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html">Hack WPA/WPA2 PSK Capturing the Handshake</a><br />
 <a href="https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1">AIRCRACK-NG</a><br />
