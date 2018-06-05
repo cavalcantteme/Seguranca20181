@@ -2,16 +2,7 @@
 
 <p>
 <strong>Constituição Federal de 1988</strong> <br /> 
-Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um
-Estado Democrático,<br /> destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade,
-a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade
-fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e
-internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte
-<strong>CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL.<br /> Art. 5º</strong> Todos são iguais perante a lei,
-sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a
-inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos 
-seguintes: <strong>X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o
-direito a indenização pelo dano material ou moral decorrente de sua violação;</strong>
+Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte <strong>CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL.<br /> Art. 5º</strong> Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: <strong>X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação;</strong>
 </p>
 
 <h1>Pré-requisitos</h1>
@@ -84,13 +75,15 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 <li><strong>Ataque de KoreK chopchop:</strong> Este ataque é ótimo quando bem sucedido, pois ele desencripta um pacote WEP sem conhecer a sua chave e também pode usar uma WEP dinâmica.</li>
 </ul>
 
-<h1>Pratica</h1>
+<h1>Prática</h1>
 <p>
 Verificar o nome da sua interface Wi-FI:<br />
 <p>
 <pre><code>iwconfig
 </code></pre>
 </p>
+</p>
+<p>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/iwconfig.png"/>
 </p> 
 <p>
