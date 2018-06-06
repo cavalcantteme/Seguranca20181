@@ -78,6 +78,7 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 
 <h1>Prática</h1>
 <p>
+
 Verificar o nome da sua interface Wi-FI:<br />
 <p>
 <pre><code>iwconfig
