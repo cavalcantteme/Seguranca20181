@@ -78,7 +78,7 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 
 <h1>Prática</h1>
 <p>
-Caso por algum motivo não for usar o Kali Linux para pratica: 
+<strong>Caso por algum motivo não for usar o Kali Linux para pratica</strong> 
 </p>
 <p>
 <a href="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/Ubuntu.md">Pratica Ubuntu</a><br />
@@ -130,12 +130,12 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 </p>
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
-<strong>BSSID:</strong> <em>Basic Service Set Identifier</em> se refere ao endereço MAC de um adaptador sem fio ou de um ponto de acesso.Sua função é identificar exclusivamente um ponto de acesso que enviará sinais pra transmissão da rede sem fio.<br /> 
+<strong>BSSID:</strong> <em>Basic Service Set Identifier</em> se refere ao endereço MAC de um adaptador sem fio ou de um ponto de acesso.Sua função é identificar exclusivamente um ponto de acesso que enviará sinais pra transmissão da rede sem fio.<br />
 <strong>CH:</strong> Canal na qual a rede está operando.<br />
 <strong>ESSID:</strong> nome que é visível na rede.<br />
 </p>
 <p>
-Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o WPA HANDSHAKE seja capturado.
+Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o <strong>WPA HANDSHAKE</strong> seja capturado.
 <p>
 <pre><code>airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
@@ -151,7 +151,7 @@ Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é prec
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aireplay-ng.png"/>
 </p>
 <p>
-Verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
+Verificar o <strong>WPA HANDSHAKE</strong> capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
 </p>
 <pre><code>ls
 aircrack-ng net-01.cap

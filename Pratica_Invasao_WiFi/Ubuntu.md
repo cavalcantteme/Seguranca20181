@@ -53,28 +53,28 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 </code></pre>
 
 <p>
-Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de$
-<strong>BSSID:</strong> <em>Basic Service Set Identifier</em> se refere ao endereço MAC de um adaptador se$
+Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
+<strong>BSSID:</strong> <em>Basic Service Set Identifier</em> se refere ao endereço MAC de um adaptador sem fio ou de um ponto de acesso.Sua função é identificar exclusivamente um ponto de acesso que enviará sinais pra transmissão da rede sem fio.<br />
 <strong>CH:</strong> Canal na qual a rede está operando.<br />
 <strong>ESSID:</strong> nome que é visível na rede.<br />
 </p>
 
 <p>
-Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em$
+Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o <strong>WPA HANDSHAKE</strong> seja capturado.
 <p>
 <pre><code>sudo airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
 </p>
 
 <p>
-Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à $
+Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
 <pre><code>sudo aireplay-ng -0 10 -a [bssid_da_rede_alvo] [nome_da_sua_interface_wireless]
 </code></pre>
 </p>
 
 <p>
-Verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No $
+Verificar o <strong>WPA HANDSHAKE</strong> capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
 </p>
 <pre><code>ls
 sudo aircrack-ng net-01.cap
