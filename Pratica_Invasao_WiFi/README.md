@@ -81,7 +81,7 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 <strong>Caso por algum motivo não for usar o Kali Linux para a prática</strong> 
 </p>
 <p>
-<a href="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/Ubuntu.md">Prática Ubuntu</a><br />
+<a href="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/README.md">Prática Ubuntu</a><br />
 </p>
 
 <strong>Usando o Kali Linux</strong>
