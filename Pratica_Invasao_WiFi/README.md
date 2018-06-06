@@ -171,6 +171,12 @@ Hora de quebrar no Brute Force:
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aircrack-ng3.png"/>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/keyfound.png"/>
 </p>
+<p>
+Você também pode usar o seguinte comando, caso deseje começar a busca a partir de uma determinada combinação dentro do padrão.
+<p>
+<pre><code>crunch [min] [max] [padrão] -s [combinação] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
+</pre></code>
+</p>
 
 <h1>Referências</h1>
 
