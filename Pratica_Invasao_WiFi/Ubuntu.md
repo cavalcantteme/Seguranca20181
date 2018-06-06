@@ -3,7 +3,7 @@ Instale o aircrack-ng:
 </p>
 
 <p>
-<precode><code>sudo apt-get update
+<precode><code>sudo apt-get update<br />
 sudo apt-get install aircrack-ng
 </code></pre>
 </p>
@@ -40,10 +40,10 @@ Vamos colocar nossa placa de rede em modo monitor:
 </p>
 
 <p>
-<precode><code>sudo airmon-ng start [nome_da_sua_interface_wireless]
+<precode><code>sudo airmon-ng start [nome_da_sua_interface_wireless]<br />
 iwconfig
 </code></pre>
-
+</p>
 <p>
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
 </p>

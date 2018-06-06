@@ -78,10 +78,10 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 
 <h1>Prática</h1>
 <p>
-<strong>Caso por algum motivo não for usar o Kali Linux para pratica</strong> 
+<strong>Caso por algum motivo não for usar o Kali Linux para a prática</strong> 
 </p>
 <p>
-<a href="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/Ubuntu.md">Pratica Ubuntu</a><br />
+<a href="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/Ubuntu.md">Prática Ubuntu</a><br />
 </p>
 
 <strong>Usando o Kali Linux</strong>
@@ -143,7 +143,7 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/airodump.png"/>
 </p>
 <p>
-Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
+Hora de capturar o tão esperado <strong>WPA HANDSHAKE.</strong> Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o <strong>WPA HANDSHAKE</strong> logo que o usuário se reconectar. Usaremos a segunda opção!
 <p>
 <pre><code>aireplay-ng -0 10 -a [bssid_da_rede_alvo] wlan0mon
 </code></pre>
