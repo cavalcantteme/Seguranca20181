@@ -78,7 +78,14 @@ A função principal é gerar tráfego para uso posterior no aircrack-ng para qu
 
 <h1>Prática</h1>
 <p>
+Caso por algum motivo não for usar o Kali Linux para pratica: 
+</p>
+<p>
+<a href="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/Ubuntu.md">Pratica Ubuntu</a><br />
+</p>
 
+<strong>Usando o Kali Linux</strong>
+<p>
 Verificar o nome da sua interface Wi-FI:<br />
 <p>
 <pre><code>iwconfig
