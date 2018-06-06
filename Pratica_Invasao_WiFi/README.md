@@ -172,7 +172,7 @@ Hora de quebrar no Brute Force:
 <a href="http://www.kalitutorials.net/2014/06/hack-wpa-2-psk-capturing-handshake.html">Hack WPA/WPA2 PSK Capturing the Handshake</a><br />
 <a href="https://www.vivaolinux.com.br/topico/Linux-Basico/Aircrack-ng-MODO-MONITORAMENTO-DESLIGA-O-WIFI-1">AIRCRACK-NG</a><br />
 <a href="https://www.vivaolinux.com.br/artigo/Comandos-para-redes-wifi">Comandos para redes wifi</a><br />
-<a href="https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA1?pagina=1">Aircrack-ng e sua família para quebrar WEP e WPA1</a><br />
+<a href="https://www.vivaolinux.com.br/artigo/Aircrackng-e-sua-familia-para-quebrar-WEP-e-WPA?pagina=1">Aircrack-ng e sua família para quebrar WEP e WPA1</a><br />
 
 <h1>Contributors</h1>
 <strong><a href="https://github.com/cavalcantteme/">Antonio Matheus Cavalcante da Silva</a><br />
