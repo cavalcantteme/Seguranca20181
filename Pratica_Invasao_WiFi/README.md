@@ -7,8 +7,9 @@ Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Consti
 
 <h1>Pré-requisitos</h1>
 <ul>
-<li>Kali Linux</li>
-<li>Adaptador Wi-Fi USB (Apenas em caso de máquina virtual)</li>
+<li>Kali Linux;</li>
+<li>Adaptador Wi-Fi USB (Apenas em caso de máquina virtual);</li>
+<li>Ferramenta aircrack-ng (No caso de usar o Ubuntu).</li>
 </ul>
 
 <h1>Fundamentação Teórica</h1>
