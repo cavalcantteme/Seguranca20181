@@ -144,7 +144,7 @@ Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é prec
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aireplay-ng.png"/>
 </p>
 <p>
-verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
+Verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
 </p>
 <pre><code>ls
 aircrack-ng net-01.cap
