@@ -51,7 +51,7 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 </p>
 
 <p>
-<pre><code>airodump-ng [nome_da_sua_interface_wireless]
+<pre><code>sudo airodump-ng [nome_da_sua_interface_wireless]
 </code></pre>
 
 <p>
