@@ -66,7 +66,7 @@ Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você 
 <p>
 Agora que temos a rede alvo, iremos monitorá-la usando algumas das informações adquiridas que guardamos em um bloco de notas anteriormente. É importante que pelo menos 300 pacotes de dados tenham passado pela rede para garantir que o <strong>WPA HANDSHAKE</strong> seja capturado.
 <p>
-<pre><code>sudo airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados
+<pre><code>sudo airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados [nome_da_sua_interface_wireless]
 </code></pre>
 </p>
 
