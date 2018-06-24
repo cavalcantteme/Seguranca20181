@@ -114,6 +114,7 @@ Hora de quebrar no Brute Force:
 <pre><code>sudo crunch [min] [max] [padrão] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/crunch.png"/>
 
 <p>
 Você também pode usar o seguinte comando, caso deseje começar a busca a partir de uma determinada combinação dentro padrão.
@@ -122,6 +123,8 @@ Você também pode usar o seguinte comando, caso deseje começar a busca a parti
 <pre><code>sudo crunch [min] [max] [padrão] -s [combinação] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
 <p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/crunch2.png"/>
+
 Ao final, temos de reativar o nosso network-manager pois ao usar o comando check kill ele o desativa.
 </p>
 
@@ -129,3 +132,4 @@ Ao final, temos de reativar o nosso network-manager pois ao usar o comando check
 <pre><code>sudo service network-manager start
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/network-manager.png"/>
