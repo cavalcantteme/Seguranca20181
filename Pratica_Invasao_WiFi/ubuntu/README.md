@@ -48,6 +48,7 @@ Vamos colocar nossa placa de rede em modo monitor:
 iwconfig
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/iwconfig2.png"/>
 
 <p>
 Quando a placa estiver pronta para monitorar, podemos ver quais são as redes disponíveis para nossos possíveis ataques.
@@ -56,6 +57,7 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 <p>
 <pre><code>sudo airodump-ng [nome_da_sua_interface_wireless]
 </code></pre>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/airodump-ng.png"/>
 
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
