@@ -17,6 +17,7 @@ Verificar o nome da sua interface Wi-FI:
 <pre><code>iwconfig
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/iwconfig.png"/>
 
 <p>
 Após verificar o nome da interface, deve-se verificar se o Ubuntu está reconhecendo o driver da interface sem fio:
