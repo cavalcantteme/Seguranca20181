@@ -58,6 +58,7 @@ Quando a placa estiver pronta para monitorar, podemos ver quais são as redes di
 <pre><code>sudo airodump-ng [nome_da_sua_interface_wireless]
 </code></pre>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/airodump-ng.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/airodump-ng2.png"/>
 
 <p>
 Após selecionar a rede alvo, utilizaremos algumas de suas informações. Você pode guardá-las em um bloco de notas. As informações são as seguintes:<br />
@@ -74,6 +75,8 @@ Agora que temos a rede alvo, iremos monitorá-la usando algumas das informaçõe
 <pre><code>sudo airodump-ng -c [canal_da_rede_alvo] --bssid [bssid_da_rede_alvo] -w dados [nome_da_sua_interface_wireless]
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/airodump-ng3.png"/>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/airodump-ng4.png"/>
 
 <p>
 Hora de capturar o tão esperado WPA HANDSHAKE. Para que seja capturado, é preciso que alguém se conecte à à rede. Há duas opções: você espera a oportunidade que algum usuário se conecte ou você pode desautenticar quem já está conectado e capturar o WPA HANDSHAKE logo que o usuário se reconectar. Usaremos a segunda opção!
