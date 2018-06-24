@@ -122,10 +122,20 @@ Você também pode usar o seguinte comando, caso deseje começar a busca a parti
 <p>
 <pre><code>sudo crunch [min] [max] [padrão] -s [combinação] | aircrack-ng [net-01.cap] -w - -e [essid_da_rede_alvo]
 </code></pre>
-<p>
+</p>
 <img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/crunch2.png"/>
 
-Ao final, temos de reativar o nosso network-manager pois ao usar o comando check kill ele o desativa.
+<p>
+Agora, vamos tirar nossa placa de rede do modo monitor.
+</p>
+<p>
+<pre><code>sudo airmon-ng stop [nome_da_sua_interface_wireless]
+</code></pre>
+</p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/stop.png"/>
+
+<p>
+Por fim, temos de reativar o nosso network-manager pois ao usar o comando check kill ele o desativa.
 </p>
 
 <p>
