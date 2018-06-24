@@ -27,6 +27,7 @@ Após verificar o nome da interface, deve-se verificar se o Ubuntu está reconhe
 <pre><code>sudo airmon-ng
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/airmon-ng.png"/>
 
 <p>
 verificar se tem algum processo que pode acabar atrapalhando o processo de captura de pacotes:
@@ -36,6 +37,7 @@ verificar se tem algum processo que pode acabar atrapalhando o processo de captu
 <pre><code>sudo airmon-ng check kill
 </code></pre>
 </p>
+<img src="https://github.com/cavalcantteme/Seguranca20181/blob/master/Pratica_Invasao_WiFi/ubuntu/imagens/checkill.png"/>
 
 <p>
 Vamos colocar nossa placa de rede em modo monitor:
